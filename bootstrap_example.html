@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style type="text/css">
+          .border_color{border: 1px solid black;}
+
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Modal Example</h2>
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#1myModal">Open Modal 1</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="1myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Connect to SFTP</h4>
+        </div>
+        <div class="modal-body">
+          <div style="background-color: blue; padding: 1px;">
+            <h4>SRTP</h4>
+          </div>
+
+  <form action="/action_page.php">
+    <div class="form-group col-sm-6">
+      <label for="email">Host</label>
+      <input type="email" class="form-control border_color" id="email" name="email">
+    </div>
+    <div class="form-group col-sm-6">
+      <label for="pwd">Port</label>
+      <input type="password" class="form-control border_color" id="pwd"  name="pwd">
+    </div>
+    <div class="form-group col-sm-6">
+      <label for="Username"> Username</label>
+      <input type="Username" class="form-control border_color"  id="user " name="">
+    </div>
+    <div class="form-group col-sm-6">
+      <label for="password">Password</label>
+      <input type="password" class="form-control border_color"  id="pwd " name="">
+    </div>
+
+    <button type="save Changes" class="btn btn-primary">Save Changes</button>
+    <button type="close" class="btn btn-danger btn-sm">Close</button>
+
+  </form>
+
+
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+  <br><br>
+
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal 2</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content" padding-bottom: 40px;>
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Connect to Host</h4>
+        </div>
+        <div class="modal-body"style="padding-bottom: 40px">
+          <div style="background-color: blue; padding: 1px;">
+            <h4>HOST</h4>
+          </div>
+
+  <form action="/action_page.php">
+    <div class="form-group col-sm-6">
+      <label for="Tenanld">Tenanld</label>
+      <input type="Tenanld" class="form-control border_color" id="email" name="email">
+    </div>
+    <div class="form-group col-sm-6">
+      <label for="">Username</label>
+      <input type="Username" class="form-control border_color" id="pwd"  name="pwd">
+    </div>
+    <div class="form-group col-sm-6">
+      <label for="password"> Password</label>
+      <input type="password" class="form-control border_color"  id="user " name="">
+    </div>
+    <div class="form-group col-sm-6">
+      <label for="rule">rule</label>
+      <input type="rule" class="form-control border_color"  id="pwd " name="">
+    </div>
+    <div class="form-group col-sm-6">
+      <label for="WSLD">WSLD</label>
+      <input type="WSLD" class="form-control border_color"  id="pwd " name="">
+    </div>
+    <div class="form-group col-sm-6">
+      <label for="rule">Endpoint</label>
+      <input type="rule" class="form-control border_color"  id="pwd " name="">
+    </div>
+    <div class="form-group ">
+      <label for="Method">Method</label>
+      <input type="Method" class="form-control border_color"  id="Method" placeholder name="">
+    </div>
+      <button type="save Changes" class="btn btn-primary">Save Changes</button>
+      <button type="close" class="btn btn-danger btn-sm">Close</button>
+
+  </form>
+
+
+</body>
+</html>
